@@ -1,0 +1,26 @@
+{
+  "name": "cloudflare-d1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test:types": "tsc --noEmit",
+    "generate": "drizzle-kit generate:sqlite",
+    "up": "drizzle-kit up:sqlite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "private": true,
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "@types/itty-router-extras": "^0.4.0",
+    "better-sqlite3": "^9.3.0",
+    "drizzle-kit": "^0.20.13",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.22.5"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.29.3",
+    "hono": "^3.12.5"
+  }
+}
